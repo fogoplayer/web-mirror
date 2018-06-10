@@ -48,20 +48,7 @@
                 console.log('Service worker has been registered for scope:'+ reg.scope);
             });
         }
-
-        //Install Prompt
-        var installPromptEvent;
-
-        window.addEventListener('beforeinstallprompt', (event) => {
-            // Prevent Chrome <= 67 from automatically showing the prompt
-            event.preventDefault();
-            // Stash the event so it can be triggered later.
-            installPromptEvent = event;
-            // Update the install UI to notify the user app can be installed
-            document.querySelector('#install-button').disabled = false;
-            console.log("Stored!");
-        });
-      
+        
       //Video Stream
       var player = document.getElementById('player');
     
