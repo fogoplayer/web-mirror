@@ -3,17 +3,17 @@
   "name": "Web Mirror",
   "icons": [
     {
-      "src": "/mirror192.png",
+      "src": "./mirror192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/mirror512.png",
+      "src": "./mirror512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/mirror",
+  "start_url": "/web-mirror",
   "background_color": "#fff",
   "display": "standalone",
   "scope": "",
