@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/web-mirror",
+  "start_url": "./web-mirror",
   "background_color": "#fff",
   "display": "standalone",
   "scope": "",
