@@ -16,6 +16,10 @@
   "start_url": "./",
   "background_color": "#fff",
   "display": "fullscreen",
-  "scope": "",
-  "theme_color": "#000"
+  "theme_color": "#000",
+  "description": "A simple app for displaying a live feed from your front-facing camera",
+  "categories": [
+    "photo",
+    "productivity"
+  ]
 }
